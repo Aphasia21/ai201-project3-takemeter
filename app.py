@@ -43,8 +43,44 @@ def handle_query(user_query: str, wardrobe_choice: str) -> tuple[str, str, str]:
            string and return it along with session["outfit_suggestion"] and
            session["fit_card"].
     """
-    # TODO: implement this function
-    return "Agent not yet implemented.", "", ""
+    if not user_query or not user_query.strip():
+        return "Please enter a search query.", "", ""
+
+    if wardrobe_choice == "Empty wardrobe (new user)":
+        wardrobe = get_empty_wardrobe()
+    else:
+        wardrobe = get_example_wardrobe()
+
+    session = run_agent(user_query.strip(), wardrobe)
+
+    if session["error"]:
+        return session["error"], "", ""
+
+    def _format_listing(idx: int, item: dict, highlight: bool = False) -> str:
+        colors = ", ".join(item.get("colors") or []) or "n/a"
+        tags = ", ".join(item.get("style_tags") or []) or "n/a"
+        brand = item.get("brand") or "Unbranded"
+        marker = "★ " if highlight else f"{idx}. "
+        return (
+            f"{marker}{item['title']}\n"
+            f"   ${item['price']:.2f}  •  {item['platform']}  •  {brand}\n"
+            f"   Size: {item['size']}  •  Condition: {item['condition']}\n"
+            f"   Colors: {colors}\n"
+            f"   Tags: {tags}\n"
+            f"   {item['description']}"
+        )
+
+    top_results = session["search_results"][:3]
+    top_pick = session["selected_item"]
+    blocks = [_format_listing(1, top_pick, highlight=True) + "   (styled below)"]
+    for i, item in enumerate(top_results[1:], start=2):
+        blocks.append(_format_listing(i, item))
+    listing_text = (
+        f"Found {len(session['search_results'])} matching listings — showing top {len(top_results)}:\n\n"
+        + "\n\n".join(blocks)
+    )
+
+    return listing_text, session["outfit_suggestion"], session["fit_card"]
 
 
 # ── interface ─────────────────────────────────────────────────────────────────
@@ -83,8 +119,8 @@ Describe what you're looking for — include size and price if you want to filte
 
         with gr.Row():
             listing_output = gr.Textbox(
-                label="🛍️ Top listing found",
-                lines=8,
+                label="🛍️ Top listings found",
+                lines=20,
                 interactive=False,
             )
             outfit_output = gr.Textbox(
