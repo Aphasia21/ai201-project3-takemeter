@@ -1,0 +1,260 @@
+{
+  "metadata": {
+    "total_posts": 316,
+    "sample_size": 50,
+    "seed": 42,
+    "source": "data/reddit_posts.csv"
+  },
+  "sample_posts": [
+    {
+      "id": 0,
+      "original_label": "reaction",
+      "text": "Anyone watching QQQ?\n\nYOLO'd $10k into QQQ calls. Hope this pays off lol"
+    },
+    {
+      "id": 1,
+      "original_label": "reaction",
+      "text": "AAPL - Buy or Sell?\n\nHedge funds loading up on AAPL. Follow the smart money.AAPL dip buying opportunity. This is exactly when winners are made."
+    },
+    {
+      "id": 2,
+      "original_label": "reaction",
+      "text": "Portfolio addition: SPY\n\nSPY dip buying opportunity. This is exactly when winners are made."
+    },
+    {
+      "id": 3,
+      "original_label": "analysis",
+      "text": "Options strategy for COIN\n\nCOIN is great entry point. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside."
+    },
+    {
+      "id": 4,
+      "original_label": "analysis",
+      "text": "DD on RIOT\n\nESG concerns aside, RIOT is a solid performer. Holding forever."
+    },
+    {
+      "id": 5,
+      "original_label": "analysis",
+      "text": "Dividend stocks worth it?\n\nHedge funds loading up on AAPL. Follow the smart money."
+    },
+    {
+      "id": 6,
+      "original_label": "analysis",
+      "text": "Weekly discussion: What are you buying this week?\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.Just sold TSLA at $120. Profit taking, might re-enter on dips.Anyone else concerned about TSLA's debt levels? Might be a trap."
+    },
+    {
+      "id": 7,
+      "original_label": "reaction",
+      "text": "Anyone watching SPY?\n\nJust sold SPY at $120. Profit taking, might re-enter on dips."
+    },
+    {
+      "id": 8,
+      "original_label": "hot_take",
+      "text": "Anyone watching COIN?\n\nCOIN is the next Tesla. Mark my words."
+    },
+    {
+      "id": 9,
+      "original_label": "hot_take",
+      "text": "GOOGL - Buy or Sell?\n\nNot financial advice but I think GOOGL is bullish on. Analyst consensus is raising targets."
+    },
+    {
+      "id": 10,
+      "original_label": "reaction",
+      "text": "Why GOOGL is a steal right now\n\nLost 30% on GOOGL this year. Might be time to cut losses."
+    },
+    {
+      "id": 11,
+      "original_label": "analysis",
+      "text": "My take on META\n\nMETA earnings report: Revenue up 15%, margins compressed. Still bullish long-term.Not financial advice but I think META is great entry point. The sector is turning around."
+    },
+    {
+      "id": 12,
+      "original_label": "reaction",
+      "text": "Newbie question: Which ETFs should I focus on?\n\nYOLO'd $10k into SPY calls. Hope this pays off lolHedge funds loading up on SPY. Follow the smart money."
+    },
+    {
+      "id": 13,
+      "original_label": "analysis",
+      "text": "Discussion: QQQ today\n\nLost 30% on QQQ this year. Might be time to cut losses.QQQ is thinking about buying. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.Just did my DD on QQQ. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 14,
+      "original_label": "analysis",
+      "text": "Analysis: TSLA earnings\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.TSLA earnings report: Revenue up 15%, margins compressed. Still bullish long-term."
+    },
+    {
+      "id": 15,
+      "original_label": "analysis",
+      "text": "Analysis: HOOD earnings\n\nJust did my DD on HOOD. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.HOOD is the next Tesla. Mark my words."
+    },
+    {
+      "id": 16,
+      "original_label": "reaction",
+      "text": "Newbie question: Which ETFs should I focus on?\n\nGOOGL dip buying opportunity. This is exactly when winners are made.YOLO'd $10k into GOOGL calls. Hope this pays off lol"
+    },
+    {
+      "id": 17,
+      "original_label": "analysis",
+      "text": "Dividend stocks worth it?\n\nMSFT earnings report: Revenue up 15%, margins compressed. Still bullish long-term."
+    },
+    {
+      "id": 18,
+      "original_label": "analysis",
+      "text": "Portfolio addition: AMZN\n\nAMZN has been on my watchlist. The P/E ratio looks really good. Time to add to position?"
+    },
+    {
+      "id": 19,
+      "original_label": "hot_take",
+      "text": "Dividend stocks worth it?\n\nRIOT is the next Tesla. Mark my words."
+    },
+    {
+      "id": 20,
+      "original_label": "reaction",
+      "text": "TSLA - Buy or Sell?\n\nLost 30% on TSLA this year. Might be time to cut losses."
+    },
+    {
+      "id": 21,
+      "original_label": "analysis",
+      "text": "Discussion: RIOT today\n\nYOLO'd $10k into RIOT calls. Hope this pays off lolJust did my DD on RIOT. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 22,
+      "original_label": "analysis",
+      "text": "COIN - Buy or Sell?\n\nCOIN has been on my watchlist. The P/E ratio looks really good. Time to add to position?COIN has been on my watchlist. The cash flow looks really good. Time to add to position?"
+    },
+    {
+      "id": 23,
+      "original_label": "analysis",
+      "text": "RIOT just announced earnings - discussion thread\n\nRIOT earnings report: Revenue up 15%, margins compressed. Still bullish long-term."
+    },
+    {
+      "id": 24,
+      "original_label": "reaction",
+      "text": "Discussion: NVDA today\n\nJust sold NVDA at $120. Profit taking, might re-enter on dips."
+    },
+    {
+      "id": 25,
+      "original_label": "analysis",
+      "text": "Portfolio addition: SOFI\n\nSOFI earnings report: Revenue up 15%, margins compressed. Still bullish long-term."
+    },
+    {
+      "id": 26,
+      "original_label": "analysis",
+      "text": "My 5-year plan portfolio allocation\n\nCOIN is accumulating. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside."
+    },
+    {
+      "id": 27,
+      "original_label": "analysis",
+      "text": "Anyone watching QQQ?\n\nHedge funds loading up on QQQ. Follow the smart money."
+    },
+    {
+      "id": 28,
+      "original_label": "hot_take",
+      "text": "Analysis: AMZN earnings\n\nESG concerns aside, AMZN is a solid performer. Holding forever."
+    },
+    {
+      "id": 29,
+      "original_label": "hot_take",
+      "text": "COIN - Buy or Sell?\n\nESG concerns aside, COIN is a solid performer. Holding forever.Hedge funds loading up on COIN. Follow the smart money.COIN is the next Tesla. Mark my words."
+    },
+    {
+      "id": 30,
+      "original_label": "analysis",
+      "text": "Dividend stocks worth it?\n\nGM earnings report: Revenue up 15%, margins compressed. Still bullish long-term."
+    },
+    {
+      "id": 31,
+      "original_label": "hot_take",
+      "text": "My take on AMD\n\nHot take: AMD will outperform the market this year. The merger is a game changer."
+    },
+    {
+      "id": 32,
+      "original_label": "hot_take",
+      "text": "My take on MSFT\n\nMSFT is the next Tesla. Mark my words.Anyone else concerned about MSFT's debt levels? Might be a trap."
+    },
+    {
+      "id": 33,
+      "original_label": "reaction",
+      "text": "Weekly discussion: What are you buying this week?\n\nYOLO'd $10k into LCID calls. Hope this pays off lol"
+    },
+    {
+      "id": 34,
+      "original_label": "reaction",
+      "text": "NVDA - Buy or Sell?\n\nJust sold NVDA at $120. Profit taking, might re-enter on dips."
+    },
+    {
+      "id": 35,
+      "original_label": "analysis",
+      "text": "Analysis: AAPL earnings\n\nAAPL has been on my watchlist. The R&D spending looks really good. Time to add to position?Just did my DD on AAPL. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 36,
+      "original_label": "hot_take",
+      "text": "Analysis: RIOT earnings\n\nHot take: RIOT will outperform the market this year. The merger is a game changer."
+    },
+    {
+      "id": 37,
+      "original_label": "analysis",
+      "text": "Morning check-in: How's your portfolio today?\n\nMETA is solid fundamentals. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside."
+    },
+    {
+      "id": 38,
+      "original_label": "reaction",
+      "text": "Portfolio addition: TSLA\n\nYOLO'd $10k into TSLA calls. Hope this pays off lolLost 30% on TSLA this year. Might be time to cut losses."
+    },
+    {
+      "id": 39,
+      "original_label": "hot_take",
+      "text": "Portfolio addition: GOOGL\n\nGOOGL is bullish on. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside."
+    },
+    {
+      "id": 40,
+      "original_label": "reaction",
+      "text": "GM - Buy or Sell?\n\nI've been watching GM for months. just loaded up on. But I'm concerned about the supply chain issues."
+    },
+    {
+      "id": 41,
+      "original_label": "hot_take",
+      "text": "Anyone watching HOOD?\n\nHOOD is the next Tesla. Mark my words."
+    },
+    {
+      "id": 42,
+      "original_label": "analysis",
+      "text": "QQQ - Buy or Sell?\n\nJust did my DD on QQQ. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 43,
+      "original_label": "reaction",
+      "text": "Discussion: AMD today\n\nJust sold AMD at $120. Profit taking, might re-enter on dips.Just sold AMD at $120. Profit taking, might re-enter on dips.Hot take: AMD will outperform the market this year. The merger is a game changer."
+    },
+    {
+      "id": 44,
+      "original_label": "reaction",
+      "text": "Portfolio addition: HOOD\n\nYOLO'd $10k into HOOD calls. Hope this pays off lolAnyone else concerned about HOOD's debt levels? Might be a trap."
+    },
+    {
+      "id": 45,
+      "original_label": "analysis",
+      "text": "Analysis: NIO earnings\n\nNIO has been on my watchlist. The revenue growth looks really good. Time to add to position?"
+    },
+    {
+      "id": 46,
+      "original_label": "analysis",
+      "text": "My take on AAPL\n\nNot financial advice but I think AAPL is undervalued at these levels. The sector is turning around.Just did my DD on AAPL. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 47,
+      "original_label": "analysis",
+      "text": "Market correction opportunity?\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY."
+    },
+    {
+      "id": 48,
+      "original_label": "analysis",
+      "text": "Portfolio addition: LCID\n\nLCID has been on my watchlist. The R&D spending looks really good. Time to add to position?"
+    },
+    {
+      "id": 49,
+      "original_label": "hot_take",
+      "text": "Anyone watching GOOGL?\n\nGOOGL is the next Tesla. Mark my words.GOOGL is the next Tesla. Mark my words.Lost 30% on GOOGL this year. Might be time to cut losses."
+    }
+  ]
+}

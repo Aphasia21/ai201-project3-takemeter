@@ -1,0 +1,473 @@
+{
+  "metadata": {
+    "total_reviewed": 50,
+    "ai_approved": 46,
+    "human_corrected": 4,
+    "ambiguous_cases": 7
+  },
+  "label_distribution": {
+    "analysis": 27,
+    "hot_take": 8,
+    "reaction": 15
+  },
+  "reviewed_posts": [
+    {
+      "id": 0,
+      "text": "Anyone watching QQQ?\n\nYOLO'd $10k into QQQ calls. Hope this pays off lol",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 1,
+      "text": "AAPL - Buy or Sell?\n\nHedge funds loading up on AAPL. Follow the smart money.AAPL dip buying opportunity. This is exactly when winners are made.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 2,
+      "text": "Portfolio addition: SPY\n\nSPY dip buying opportunity. This is exactly when winners are made.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 3,
+      "text": "Options strategy for COIN\n\nCOIN is great entry point. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 4,
+      "text": "DD on RIOT\n\nESG concerns aside, RIOT is a solid performer. Holding forever.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 5,
+      "text": "Dividend stocks worth it?\n\nHedge funds loading up on AAPL. Follow the smart money.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 6,
+      "text": "Weekly discussion: What are you buying this week?\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.Just sold TSLA at $120. Profit taking, might re-enter on dips.Anyone else concerned about TSLA's debt levels? Might be a trap.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 7,
+      "text": "Anyone watching SPY?\n\nJust sold SPY at $120. Profit taking, might re-enter on dips.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 8,
+      "text": "Anyone watching COIN?\n\nCOIN is the next Tesla. Mark my words.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 9,
+      "text": "GOOGL - Buy or Sell?\n\nNot financial advice but I think GOOGL is bullish on. Analyst consensus is raising targets.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 10,
+      "text": "Why GOOGL is a steal right now\n\nLost 30% on GOOGL this year. Might be time to cut losses.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 11,
+      "text": "My take on META\n\nMETA earnings report: Revenue up 15%, margins compressed. Still bullish long-term.Not financial advice but I think META is great entry point. The sector is turning around.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 12,
+      "text": "Newbie question: Which ETFs should I focus on?\n\nYOLO'd $10k into SPY calls. Hope this pays off lolHedge funds loading up on SPY. Follow the smart money.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 13,
+      "text": "Discussion: QQQ today\n\nLost 30% on QQQ this year. Might be time to cut losses.QQQ is thinking about buying. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.Just did my DD on QQQ. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 14,
+      "text": "Analysis: TSLA earnings\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.TSLA earnings report: Revenue up 15%, margins compressed. Still bullish long-term.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 15,
+      "text": "Analysis: HOOD earnings\n\nJust did my DD on HOOD. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.HOOD is the next Tesla. Mark my words.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 16,
+      "text": "Newbie question: Which ETFs should I focus on?\n\nGOOGL dip buying opportunity. This is exactly when winners are made.YOLO'd $10k into GOOGL calls. Hope this pays off lol",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 17,
+      "text": "Dividend stocks worth it?\n\nMSFT earnings report: Revenue up 15%, margins compressed. Still bullish long-term.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 18,
+      "text": "Portfolio addition: AMZN\n\nAMZN has been on my watchlist. The P/E ratio looks really good. Time to add to position?",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 19,
+      "text": "Dividend stocks worth it?\n\nRIOT is the next Tesla. Mark my words.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 20,
+      "text": "TSLA - Buy or Sell?\n\nLost 30% on TSLA this year. Might be time to cut losses.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 21,
+      "text": "Discussion: RIOT today\n\nYOLO'd $10k into RIOT calls. Hope this pays off lolJust did my DD on RIOT. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 22,
+      "text": "COIN - Buy or Sell?\n\nCOIN has been on my watchlist. The P/E ratio looks really good. Time to add to position?COIN has been on my watchlist. The cash flow looks really good. Time to add to position?",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 23,
+      "text": "RIOT just announced earnings - discussion thread\n\nRIOT earnings report: Revenue up 15%, margins compressed. Still bullish long-term.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 24,
+      "text": "Discussion: NVDA today\n\nJust sold NVDA at $120. Profit taking, might re-enter on dips.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 25,
+      "text": "Portfolio addition: SOFI\n\nSOFI earnings report: Revenue up 15%, margins compressed. Still bullish long-term.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 26,
+      "text": "My 5-year plan portfolio allocation\n\nCOIN is accumulating. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 27,
+      "text": "Anyone watching QQQ?\n\nHedge funds loading up on QQQ. Follow the smart money.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 28,
+      "text": "Analysis: AMZN earnings\n\nESG concerns aside, AMZN is a solid performer. Holding forever.",
+      "original_label": "hot_take",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "human_corrected"
+    },
+    {
+      "id": 29,
+      "text": "COIN - Buy or Sell?\n\nESG concerns aside, COIN is a solid performer. Holding forever.Hedge funds loading up on COIN. Follow the smart money.COIN is the next Tesla. Mark my words.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 30,
+      "text": "Dividend stocks worth it?\n\nGM earnings report: Revenue up 15%, margins compressed. Still bullish long-term.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 31,
+      "text": "My take on AMD\n\nHot take: AMD will outperform the market this year. The merger is a game changer.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 32,
+      "text": "My take on MSFT\n\nMSFT is the next Tesla. Mark my words.Anyone else concerned about MSFT's debt levels? Might be a trap.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 33,
+      "text": "Weekly discussion: What are you buying this week?\n\nYOLO'd $10k into LCID calls. Hope this pays off lol",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 34,
+      "text": "NVDA - Buy or Sell?\n\nJust sold NVDA at $120. Profit taking, might re-enter on dips.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 35,
+      "text": "Analysis: AAPL earnings\n\nAAPL has been on my watchlist. The R&D spending looks really good. Time to add to position?Just did my DD on AAPL. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 36,
+      "text": "Analysis: RIOT earnings\n\nHot take: RIOT will outperform the market this year. The merger is a game changer.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 37,
+      "text": "Morning check-in: How's your portfolio today?\n\nMETA is solid fundamentals. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 38,
+      "text": "Portfolio addition: TSLA\n\nYOLO'd $10k into TSLA calls. Hope this pays off lolLost 30% on TSLA this year. Might be time to cut losses.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 39,
+      "text": "Portfolio addition: GOOGL\n\nGOOGL is bullish on. Currently holding 100 shares. Average cost basis $85. Expecting 20% upside.",
+      "original_label": "hot_take",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "human_corrected"
+    },
+    {
+      "id": 40,
+      "text": "GM - Buy or Sell?\n\nI've been watching GM for months. just loaded up on. But I'm concerned about the supply chain issues.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 41,
+      "text": "Anyone watching HOOD?\n\nHOOD is the next Tesla. Mark my words.",
+      "original_label": "hot_take",
+      "reviewed_label": "hot_take",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 42,
+      "text": "QQQ - Buy or Sell?\n\nJust did my DD on QQQ. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 43,
+      "text": "Discussion: AMD today\n\nJust sold AMD at $120. Profit taking, might re-enter on dips.Just sold AMD at $120. Profit taking, might re-enter on dips.Hot take: AMD will outperform the market this year. The merger is a game changer.",
+      "original_label": "reaction",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 44,
+      "text": "Portfolio addition: HOOD\n\nYOLO'd $10k into HOOD calls. Hope this pays off lolAnyone else concerned about HOOD's debt levels? Might be a trap.",
+      "original_label": "reaction",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "human_corrected"
+    },
+    {
+      "id": 45,
+      "text": "Analysis: NIO earnings\n\nNIO has been on my watchlist. The revenue growth looks really good. Time to add to position?",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 46,
+      "text": "My take on AAPL\n\nNot financial advice but I think AAPL is undervalued at these levels. The sector is turning around.Just did my DD on AAPL. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 47,
+      "text": "Market correction opportunity?\n\nJust did my DD on TSLA. Here's what I found: Strong revenue growth, solid management, competitive moat. Rating: BUY.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "high_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 48,
+      "text": "Portfolio addition: LCID\n\nLCID has been on my watchlist. The R&D spending looks really good. Time to add to position?",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "review_status": "ai_approved"
+    },
+    {
+      "id": 49,
+      "text": "Anyone watching GOOGL?\n\nGOOGL is the next Tesla. Mark my words.GOOGL is the next Tesla. Mark my words.Lost 30% on GOOGL this year. Might be time to cut losses.",
+      "original_label": "hot_take",
+      "reviewed_label": "reaction",
+      "confidence": "high_confidence",
+      "review_status": "human_corrected"
+    }
+  ],
+  "ambiguous_cases": [
+    {
+      "id": 3,
+      "text_snippet": "Options strategy for COIN\n\nCOIN is great entry point. Currently holding 100 shares. Average cost bas",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 5,
+      "text_snippet": "Dividend stocks worth it?\n\nHedge funds loading up on AAPL. Follow the smart money.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 26,
+      "text_snippet": "My 5-year plan portfolio allocation\n\nCOIN is accumulating. Currently holding 100 shares. Average cos",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 27,
+      "text_snippet": "Anyone watching QQQ?\n\nHedge funds loading up on QQQ. Follow the smart money.",
+      "original_label": "analysis",
+      "reviewed_label": "analysis",
+      "confidence": "low_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 28,
+      "text_snippet": "Analysis: AMZN earnings\n\nESG concerns aside, AMZN is a solid performer. Holding forever.",
+      "original_label": "hot_take",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 39,
+      "text_snippet": "Portfolio addition: GOOGL\n\nGOOGL is bullish on. Currently holding 100 shares. Average cost basis $85",
+      "original_label": "hot_take",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    },
+    {
+      "id": 44,
+      "text_snippet": "Portfolio addition: HOOD\n\nYOLO'd $10k into HOOD calls. Hope this pays off lolAnyone else concerned a",
+      "original_label": "reaction",
+      "reviewed_label": "analysis",
+      "confidence": "medium_confidence",
+      "reason": "Hard to classify; marker counts were close or mixed."
+    }
+  ]
+}
